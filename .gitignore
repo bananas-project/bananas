@@ -1,0 +1,62 @@
+# --- Compiled object files ---
+*.o
+*.obj
+
+# --- Precompiled Headers ---
+*.gch
+*.pch
+
+# --- Compiled binary files / executables ---
+*.exe
+*.out
+*.app
+*.elf
+*.bin
+
+# --- Shared / static libraries ---
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+
+# --- CMake ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+build-*/
+
+# --- Make ---
+*.d
+*.dep
+
+# --- SDL2-generated files (if any temporary) ---
+*.bmp
+*.log
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# --- Backup and temporary files ---
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Git ---
+.git/
+.gitmodules
+*.orig
+
+# --- Project-specific ---
+blackbox  # если так называется исполняемый файл
